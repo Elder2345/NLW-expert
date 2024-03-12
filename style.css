@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=inter:wght@400;600;700&display=swap');
+
+*, :root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+  font-family: 'inter' sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body{
+ background-color: #2b4869;
+
+}
+
+main {
+padding: 20px;
+max-width: 640px;
+margin: 0 auto 64px;
+}
+
+header{
+
+margin-top: 24px;
+padding-bottom: 24px;
+border-bottom: 1px solid #000000;
+
+}
+header h1{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+
+}
+
+.quiz-item{
+  margin-top: 24px;
+  border: 1px solid #000000;
+  border-radius: 6px;
+
+}
+.quiz-item h3{
+ padding: 16px 20px;
+ color: rgb(255, 255, 255);
+ display:flex;
+ align-items: center;
+ gap: 12px;
+
+ background-color: rgb(90, 122, 150);
+}
+
+.quiz-item dl {
+padding: 20px 26px;
+
+display: grid;
+gap: 8px;
+color: #fcf7f7;
+}
+
+.quiz-item dl dt{
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0;
+
+display: flex;
+align-items: center;
+gap: 8px;
+
+}
+
+input{
+all: unset;
+border: 1px solid #ffffff;
+width: 16px;
+height: 16px;
+
+border-radius: 50px;
+display: inline-block;
+
+}
+
+input:checked {
+border: 1px solid  #00ff40; 
+
+}
+
+input :checked:before{
+ content: "";
+ width: 10px;
+ height: 10px;
+
+ display: block;
+ background-color: #7bff00;
+
+}
+ 
+
+
+
+
+#acertos{
+
+text-align: center;
+background-color: #7bff00;;
+
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+padding: 12px;
+
+
+}
